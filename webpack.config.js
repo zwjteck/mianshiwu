@@ -7,10 +7,6 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var extractCSS = new ExtractTextPlugin('stylesheets/common.css');
 var extractSASS = new ExtractTextPlugin('stylesheets/[name].css');
 
-
-
-console.log(process.env.NODE_ENV);
-
 module.exports = {
     entry: {
         index: path.resolve(__dirname, 'app/index.js'),
@@ -21,7 +17,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
-        publicPath : process.env.NODE_ENV == 'development' ? '/' : 'http://hifox-static.oss-cn-shanghai.aliyuncs.com/sandbox-static/version/'
+        publicPath :'/'
     },
 
 
@@ -88,33 +84,33 @@ module.exports = {
             'window.jQuery': 'jquery',
             _:'underscore'
         }),
-        // new webpack.DefinePlugin({
-        //   'process.env': {
-        //     NODE_ENV: JSON.stringify('production')
-        //   }
-        // }),
-        //
-        // new webpack.optimize.UglifyJsPlugin({
-        //   compress: {
-        //     warnings: false
-        //   }
-        // }),
+        new webpack.DefinePlugin({
+          'process.env': {
+            NODE_ENV: JSON.stringify('production')
+          }
+        }),
+
+        new webpack.optimize.UglifyJsPlugin({
+          compress: {
+            warnings: false
+          }
+        })
 
 
 
     ],
     // devtool: 'eval-source-map',
-    // devServer: {
-    //     contentBase: './dist',
-    //     colors: true,
-    //     historyApiFallback: true,
-    //     hot: true,
-    //     inline: true,
-    //     progress: true,
-    //     stats: 'errors-only',
-    //     host: process.env.HOST,
-    //     port: process.env.PORT || 8080
-    // }
+    devServer: {
+        contentBase: './dist',
+        colors: true,
+        historyApiFallback: true,
+        hot: true,
+        inline: true,
+        progress: true,
+        stats: 'errors-only',
+        host: process.env.HOST,
+        port: process.env.PORT || 8080
+    }
 
 
 

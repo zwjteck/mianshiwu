@@ -26,12 +26,15 @@ export const store = finalCreateStore(reducer)
 // 创建一个增强版的history来结合store同步导航事件
 const history = syncHistoryWithStore(browserHistory, store)
 
-import { Home  , TM404 } from './components/index'
+import { Home  , TM404 , Login } from './components/index'
 
 render(
     <Provider store={store}>
         <Router history={history}>
-            <Route path="/" component={Home}></Route>
+            <Route path="/" component={Home} />
+
+            <Route path="/login" component={Login} />
+
             <Route path="*" component={TM404} />
         </Router>
     </Provider>,

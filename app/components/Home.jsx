@@ -89,7 +89,7 @@ class Home extends Component {
                                 <ul className="tab_menu">
                                     <li className="current"><a href="index.html">发现</a></li>
                                     <li><a href="focus.html">关注</a></li>
-                                    <li><a href="2015.html">2015精选</a></li>
+                                    <li><a href="2015.html">2017精选</a></li>
                                     <li><a href="#"><i className="fa fa-cog"></i></a></li>
                                     <li className="search">
                                         <form>
@@ -324,7 +324,25 @@ class Home extends Component {
                         </div>
                     </div>
 
+                    <div className="fixuser">
 
+                        <a href="#" className="user">
+                            <img src="./images/icons/head.jpg" alt="头像"  name="头像"/>
+                            <i className="fa fa-sort-desc" id="useclick"></i>
+                        </a>
+
+                        <ul id="hidelist" className="drop_layer useall use_menu">
+                            <li><a href=""><i className="fa fa-pencil"></i>写文章</a></li>
+                            <li><a href=""><i className="fa fa-user"></i>我的主页</a></li>
+                            <li><a href=""><i className="fa fa-heart"></i>我喜欢的</a></li>
+                            <li><a href=""><i className="fa fa-star"></i>我的收藏</a></li>
+                            <li><a href=""><i className="fa fa-bell"></i>提醒</a></li>
+                            <li><a href=""><i className="fa fa-envelope"></i>简信</a></li>
+                            <li><a href=""><i className="fa fa-gears"></i>设置</a></li>
+                            <li><a href=""><i className="fa fa-sign-out"></i>登出</a></li>
+                        </ul>
+
+                    </div>
                 </div>
 
                 </div>
