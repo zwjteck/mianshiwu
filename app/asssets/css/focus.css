@@ -4,7 +4,7 @@
 .focus_container h4{color:#999;font-size:20px;line-height:30px;font-weight:normal;text-align:left;}
 .focus_container .focus_list{background:#f8f8f8;border:2px dashed #d9d9d9;border-radius:16px;padding:30px 30px 0 30px;text-align:left;margin:30px 0;}
 .focus_list .remmend{margin:10px 15px 30px 0;}
-.focus_list .remmend a{padding:5px 10px;font-size:12px;border-radius:14px;background: #e78170; color:#fff;}
+.focus_list .remmend a{padding:5px 10px;font-size:12px;border-radius:14px;background: #62974E; color:#fff;}
 .thelists li{border-bottom:1px dashed #d9d9d9;padding:15px 0 10px 60px; position:relative;}
 .thelists li:last-child{border-bottom:none;}
 .thelists li .listimg{position:absolute;width:40px;height:40px;left:0;}

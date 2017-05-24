@@ -24,8 +24,8 @@ table{border-collapse:collapse;border-spacing:0;}
 .fixleft{position:fixed;top:0;left:0;width:45px;height:100%;background:#2a2a2a repeat;z-index:100;}
 .fixleft a{display:block;line-height:25px;padding:10px;font-size:16px;}
 .expand a{color:#999;text-shadow:0 1px 0 #000;position:relative;}
-.left_top a.active,.left_top a:hover{background-color:#e78170;text-shadow:0 1px 0 #de533a;color:#fff;}
-.left_top a:hover{background-color:#f49484;}
+.left_top a.active,.left_top a:hover{background-color:#62974E;text-shadow:0 1px 0 62974E;color:#fff;}
+.left_top a:hover{background-color:62974E;}
 .left_top a.logo{font-size:18px;}
 .left_top i{display:inline-block;width:16px;line-height:14px;}
 .left_top i.fa-mobile{font-size:26px; position:relative; top:3px;}
@@ -90,7 +90,7 @@ li.search i{position:absolute;right:14px;top:10px;font-size:12px;}
 .tab_box .links{margin-top:60px;padding:0 35px; width:675px;}
 .tab_box .links li{float:left;}
 .tab_box .links a{display:inline-block;font-size:12px;border:1px solid #d9d9d9;border-radius:14px;padding:4px 10px;margin:8px 15px 0px 0;line-height:1.5;}
-.tab_box .links a.active{background:#e78170 repeat;border-color:#e78170;color:#fff;}
+.tab_box .links a.active{background:#62974E repeat;border-color:#62974E;color:#fff;}
 .tab_box .listbook{margin-top:40px;padding-left:36px; width:709px;}
 .tab_box .listbook li{float:left;width:100%;margin-bottom:17px;padding:0 2px 17px 0;}
 .tab_box .listbook li:not(:last-child){border-bottom:1px dashed #d9d9d9;}
@@ -106,7 +106,7 @@ li.search i{position:absolute;right:14px;top:10px;font-size:12px;}
 .list_lf .list_detail a,.list_lf .list_detail span,.list_lf .list_detail em{color:#999;}
 .list_lf .list_detail em{margin:0 4px;}
 .tab_box .more{margin-bottom:30px;}
-.tab_box .more a{ display:inline-block;padding:14px 18px;font-size:18px; color:#fff;background:#e78170 repeat;}
+.tab_box .more a{ display:inline-block;padding:14px 18px;font-size:18px; color:#fff;background:#62974E repeat;}
 .footer{border-top:1px solid #d9d9d9;color:#999;font-size:12px;line-height:20px; overflow:hidden; padding:8px 0 10px 25%;}
 .footer .f_lf{float:left;text-align:left; margin-left:25px;}
 .footer .f_lf p{margin-top:5px;}
