@@ -18,9 +18,9 @@ typings.json
 xcuserdata/
 ## Other
 #*.png
-
+.idea/
 #*.mp4
-
+target/
 #*.jpg
 
 #*.mov
