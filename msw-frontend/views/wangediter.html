@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--引入wangEditor.css-->
+    <link rel="stylesheet" type="text/css" href="./css/wangEditor.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/edit.css">
+
+</head>
+<body>
+<div style="width: 815px;">
+    <div id="div1" style="height: 100%; ">
+        <p>请输入内容...</p>
+    </div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="./js/lib/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./js/wangEditor.js"></script>
+<script src="./js/wang-edit/insert-modal.js"></script>
+<script src="./js/wang-edit/save-menu.js"></script>
+<script src="./js/wang-edit/parting-line.js"></script>
+<!--这里引用jquery和wangEditor.js-->
+<script type="text/javascript">
+    var editor = new wangEditor('div1');
+    // 上传图片（举例）
+    var _config = [
+        'head',
+        '|',
+        'fontfamily',
+        '|',
+        'fontsize',
+        '|',
+        'bold',
+        'italic',
+        'underline',
+        'strikethrough',
+        '|',
+        'indent',
+        'unorderlist',
+        'orderlist',
+        'alignleft',
+        'aligncenter',
+        'alignright',
+        '|',
+        'insertModal',
+        '|',
+        'img',
+        'table',
+        'link',
+        'insertcode' ,
+        'partingline'
+//        'save'
+
+    ];
+    editor.config.menus = _config
+    editor.config.uploadImgUrl = '/upload';
+
+    // 隐藏掉插入网络图片功能。该配置，只有在你正确配置了图片上传功能之后才可用。
+    editor.config.hideLinkImg = false;
+
+    editor.create();
+    // 配置 onchange 事件
+    editor.onchange = function () {
+        $('.wangEditor-menu-container .menu-group:nth-child(7)').removeClass('fn-inline')
+    };
+
+    $('.wangeditor-menu-img-font2').text('Arial')
+    $('.wangeditor-menu-img-text-height').text('16')
+
+
+
+</script>
+</html>

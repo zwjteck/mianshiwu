@@ -1,0 +1,110 @@
+.register {
+    width: 564px;
+    height: 724px;
+    background-color: #fff;
+    box-shadow: 0 0 12px #ccc;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -282px;
+    margin-top: -362px;
+
+}
+.register .register-logo {
+    height: 190px;
+    background: url('../images/logo.png') no-repeat 50%;
+}
+.register .register-title {
+    height: 72px;
+    line-height: 72px;
+    width: 450px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: #666;
+}
+.register .register-input {
+    width: 440px;
+    height: 50px;
+    border:1px solid #EAEBEA;
+    background: #F4F4F4 url("../images/phone.png") no-repeat 20px 15px;
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.register .register-input input {
+    width: 300px;
+    float: left;
+    margin-left: 55px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    border-left: 1px solid #EAEBEA;
+    padding-left: 12px;
+    color: #666;
+}
+.register .register-input a {
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.register .register-input a:hover {
+    color: #EA7780;
+}
+.register .register-input.register-password  {
+    background: #F4F4F4 url("../images/password.png") no-repeat 20px 15px;
+}
+.register .register-input.register-code  {
+    background: #F4F4F4 url("../images/safity.png") no-repeat 20px 15px;
+}
+.register .register-input:hover {
+    opacity: 0.8;
+}
+.register .register-rules {
+    width: 440px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.register .register-rules span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+}
+.register .register-rules span.selected {
+    background: url("../images/ok.png") no-repeat 50%;
+}
+.register .register-rules a {
+    color: #666;
+}
+.register .register-rules a:hover {
+    color: #EA7780;
+}
+.register .register-submit {
+    width: 440px;
+    height:54px;
+    color: #fff;
+    background-color: #E6515E;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 54px;
+    margin: 86px auto 0;
+    text-align: center;
+    cursor: pointer;
+}
+.register .register-submit:hover {
+    opacity: 0.8;
+}

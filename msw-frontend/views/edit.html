@@ -1,0 +1,518 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TeachIN</title>
+
+    <!--[if lt IE 8]>
+    <script src="./js/lib/ieold.js"></script>
+    <![endif]-->
+
+
+    <!--公用css start-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/animation_delay.css">
+    <link rel="stylesheet" href="./css/drop.css">
+    <link rel="stylesheet" href="./css/perfect-scrollbar.min.css">
+
+
+    <!--引入wangEditor.css 和自定义修改 start-->
+    <link rel="stylesheet" type="text/css" href="./css/wangEditor.min.css">
+    <link rel="stylesheet" stype="text/css" href="./css/edit.css">
+    <!--引入wangEditor.css 和自定义修改 end-->
+    <link rel="stylesheet" stype="text/css" href="./css/editer.css">
+
+
+</head>
+<body>
+
+<div class="header noshadow">
+    <div class="header-body">
+        <div class="logo fn-inline">
+            <a href="/">
+                <img class="back" src="./images/teach-21.png" width="10" alt="logo teachin">
+            </a>
+        </div>
+        <div class="logo fn-inline">
+            <a href="/">
+                <img src="./images/teach-05.png" alt="logo teachin">
+            </a>
+        </div>
+        <div class="time fn-inline">2017/05/25  23:00更新</div>
+
+        <div class="user fn-right">
+            <div class="user-name">choujidan0821</div>
+            <div class="user-list"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="edit-body">
+    <div class="fn-left edit-favior" >
+        <div class="edit-title">
+            <div class="edit-favior-title fn-left">引用收藏</div>
+        </div>
+        <div class="edit-content">
+            <div class="edit-tags">
+                <div class="edit-tags-top">
+                    <div class="edit-content-tag fn-inline" id="target-tags-multipart">
+                        <div class="edit-tag-type">标签 <i class="arr-top"></i></div>
+                    </div>
+                    <div class="edit-content-tag fn-inline" id="target-tags-single" >
+                        <div class="edit-tag-type">类型<i class="arr-top"></i></div>
+                    </div>
+                    <div class="edit-content-title fn-right">
+                        <div class="search">
+                            <input type="text" value="" placeholder="搜索" class="search-input" id="search-input" />
+                            <i class="search-clear"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="edit-tags-multipart fn-hide">
+                <div class="edit-multipart-li">全部</div>
+                <div class="edit-multipart-li pink">创新教育</div>
+                <div class="edit-multipart-li">课程参考</div>
+                <div class="edit-multipart-li">可用素材</div>
+                <div class="edit-multipart-li pink">教育新闻资讯</div>
+                <div class="edit-multipart-li">图片</div>
+                <div class="edit-multipart-li">辅导教学视频</div>
+                <div class="edit-multipart-li">站外收藏</div>
+            </div>
+
+
+            <div class="edit-tags-single fn-hide">
+                <div class="edit-single-li">全部</div>
+                <div class="edit-single-li">文章</div>
+                <div class="edit-single-li">题目</div>
+                <div class="edit-single-li">图片</div>
+                <div class="edit-single-li pink">文档</div>
+                <div class="edit-single-li">音频</div>
+                <div class="edit-single-li">视频</div>
+            </div>
+
+
+            <div class="edit-tags-detail">
+
+
+            </div>
+            <div class="edit-left-items">
+                <div class="edit-left-item">
+                <div class="edit-item-body">
+                    <a class="edit-item-title">这里是收藏内容的标题这里是收藏内容的标题</a>
+                    <div class="edit-item-description hide">
+                        <div class="edit-item-description-img fn-left">
+                            <img src="./images/teach-28.png" width="28" height="28" alt="">
+                        </div>
+                        <div class="edit-item-description-text fn-eft ">
+                            <div>志鸿优化优秀教案</div>
+                            <div class="edit-item-description-time">
+                                2017/05/24  18:43更新
+                            </div>
+                        </div>
+                    </div>
+                    <div class="edit-item-time">20170524</div>
+                    <div class="edit-item-content" id="wangedit" >
+                        can define a data-clipboard-action attribute to specify if you want to either copy or cut content.
+                        If you omit this attribute, copy will be used by default.；阿萨德大傻蛋势均力敌；阿拉丁是；
+                        <div>
+                            <img src="./images/timg2.jpeg" alt="">
+                        </div>
+                        <div>
+                            你不够优秀，只因你缺乏长期思维
+                        </div>
+
+                        <div>
+                            文/1212秋刀鱼﻿ 我知道，当步入80岁高龄时，我不会考虑为何在1994年的人生低谷时放弃了华尔街的优厚待遇。与此同时，我会为没有亲历互联网浪潮而感到后悔，因为那是一件具有...
+                        </div>
+                    </div>
+
+
+                    <div class="edit-item-copy fn-hide edit"
+                         data-clipboard-target="#wangedit">
+                        <img src="./images/teach-25.png" width="30" height="30" alt="">
+                    </div>
+                    <div class="edit-item-show fn-hide">
+                        <img src="./images/teach-24.png" width="30" height="30" alt="">
+                    </div>
+
+                    <div class="edit-item-hide hide">
+                        <img src="./images/teach-26.png" width="30" height="30" alt="">
+                    </div>
+
+                    <div class="hide edit-item-focus">
+                        <div class="edit-page-tags">
+                            <div class="edit-page-tag">
+                                启蒙
+                            </div>
+                            <div class="edit-page-tag">
+                                全民社会
+                            </div>
+                        </div>
+                        <div class="edit-page-look">
+                            <a href="/">
+                                查看原文   http://www.topys.cn/article/detail?id=23704
+                            </a>
+                        </div>
+                        <div class="edit-page-link">
+
+                            <a href="/"><span> << </span> 上一篇   罗马帝国曾被称为“永恒之城”，是如何衰落崩塌的？</a>
+                        </div>
+                        <div class="edit-page-link">
+
+                            <a href="/"><span> >> </span>
+                                下一篇   阿拉里克的哥特人、阿提拉的匈人、盖萨里克的汪达尔人，还...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="edit-left-item">
+                    <div class="edit-item-body">
+                        <a class="edit-item-title">这里是收藏内容的标题这里是收藏内容的标题</a>
+                        <div class="edit-item-description hide">
+                            <div class="edit-item-description-img fn-left">
+                                <img src="./images/teach-28.png" width="28" height="28" alt="">
+                            </div>
+                            <div class="edit-item-description-text fn-eft ">
+                                <div>志鸿优化优秀教案</div>
+                                <div class="edit-item-description-time">
+                                    2017/05/24  18:43更新
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-item-time">20170524</div>
+                        <div class="edit-item-content" id="wangedit2" >
+                            收藏的内容这里是收藏的内容收藏的内容这里是收藏的内容收藏的内容这里
+                            是收藏的内容收藏的内容这里是收藏的内
+                            <br />
+                            <img src="./images/teach-19.png" width="200" alt="">
+                        </div>
+                        <div class="edit-item-copy fn-hide edit"
+                             data-clipboard-target="#wangedit2">
+                            <img src="./images/teach-25.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-show fn-hide">
+                            <img src="./images/teach-24.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-hide hide">
+                            <img src="./images/teach-26.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="hide edit-item-focus">
+                            <div class="edit-page-tags">
+                                <div class="edit-page-tag">
+                                    启蒙
+                                </div>
+                                <div class="edit-page-tag">
+                                    全民社会
+                                </div>
+                            </div>
+                            <div class="edit-page-look">
+                                <a href="/">
+                                    查看原文   http://www.topys.cn/article/detail?id=23704
+                                </a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> << </span> 上一篇   罗马帝国曾被称为“永恒之城”，是如何衰落崩塌的？</a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> >> </span>
+                                    下一篇   阿拉里克的哥特人、阿提拉的匈人、盖萨里克的汪达尔人，还...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit-left-item">
+                    <div class="edit-item-body">
+                        <a class="edit-item-title">这里是收藏内容的标题这里是收藏内容的标题</a>
+                        <div class="edit-item-description hide">
+                            <div class="edit-item-description-img fn-left">
+                                <img src="./images/teach-28.png" width="28" height="28" alt="">
+                            </div>
+                            <div class="edit-item-description-text fn-eft ">
+                                <div>志鸿优化优秀教案</div>
+                                <div class="edit-item-description-time">
+                                    2017/05/24  18:43更新
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-item-time">20170524</div>
+                        <div class="edit-item-content" id="wangedit3">
+                            内建学习环境的繁琐过程，足以熄灭你刚刚燃起的学习兴趣。终于，以后再也不用烦恼了。
+
+                            每个课程都有内置的学习环境，即到即学，心无旁骛，学习起来自然事半功倍。容这里是收藏的内容收藏的内容这里是收藏的内容收藏的内容这里
+                            是收藏的内容收藏的内容这里是收藏的内容收藏的内容这里是收藏的内容收藏的内容这里
+                            是收藏的内容收藏的内容这里是收藏的内
+                        </div>
+                        <div class="edit-item-copy fn-hide edit"
+                             data-clipboard-target="#wangedit3" >
+                            <img src="./images/teach-25.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-show fn-hide">
+                            <img src="./images/teach-24.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-hide hide">
+                            <img src="./images/teach-26.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="hide edit-item-focus">
+                            <div class="edit-page-tags">
+                                <div class="edit-page-tag">
+                                    启蒙
+                                </div>
+                                <div class="edit-page-tag">
+                                    全民社会
+                                </div>
+                            </div>
+                            <div class="edit-page-look">
+                                <a href="/">
+                                    查看原文   http://www.topys.cn/article/detail?id=23704
+                                </a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> << </span> 上一篇   罗马帝国曾被称为“永恒之城”，是如何衰落崩塌的？</a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> >> </span>
+                                    下一篇   阿拉里克的哥特人、阿提拉的匈人、盖萨里克的汪达尔人，还...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit-left-item">
+                    <div class="edit-item-body">
+                        <a class="edit-item-title">这里是收藏内容的标题这里是收藏内容的标题</a>
+                        <div class="edit-item-description hide">
+                            <div class="edit-item-description-img fn-left">
+                                <img src="./images/teach-28.png" width="28" height="28" alt="">
+                            </div>
+                            <div class="edit-item-description-text fn-eft ">
+                                <div>志鸿优化优秀教案</div>
+                                <div class="edit-item-description-time">
+                                    2017/05/24  18:43更新
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-item-time">20170524</div>
+                        <div class="edit-item-content" id="wangedit4" >
+                            的，的为我排位哦哦陪我排位哦陪我排位藏的内容这里是收藏的内容收藏的内容这里
+                            是收藏的内容收藏的排位哦哦陪我排位
+                            <br />
+                            <img src="./images/teach-23.png" width="200" alt="">
+                            <br />
+                            哦陪我排位藏的内容这里是收藏的
+                            1. 从搬砖说起 2. 一个简单的计数问题 3. Spark解决什么了问题 4. 基于数据集的计算框架 5. 数据集概念之SQL 6. 数据集概念之JavaScript 7. Spark牛刀小试
+                        </div>
+                        <div class="edit-item-copy fn-hide edit"
+                             data-clipboard-target="#wangedit4" >
+                            <img src="./images/teach-25.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-show fn-hide">
+                            <img src="./images/teach-24.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-hide hide">
+                            <img src="./images/teach-26.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="hide edit-item-focus">
+                            <div class="edit-page-tags">
+                                <div class="edit-page-tag">
+                                    启蒙
+                                </div>
+                                <div class="edit-page-tag">
+                                    全民社会
+                                </div>
+                            </div>
+                            <div class="edit-page-look">
+                                <a href="/">
+                                    查看原文   http://www.topys.cn/article/detail?id=23704
+                                </a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> << </span> 上一篇   罗马帝国曾被称为“永恒之城”，是如何衰落崩塌的？</a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> >> </span>
+                                    下一篇   阿拉里克的哥特人、阿提拉的匈人、盖萨里克的汪达尔人，还...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="edit-left-item">
+                    <div class="edit-item-body">
+                        <a class="edit-item-title">dswee我去问问去封测微微侧翻问问去封测微微侧翻</a>
+                        <div class="edit-item-description hide">
+                            <div class="edit-item-description-img fn-left">
+                                <img src="./images/teach-28.png" width="28" height="28" alt="">
+                            </div>
+                            <div class="edit-item-description-text fn-eft ">
+                                <div>志鸿优化优秀教案</div>
+                                <div class="edit-item-description-time">
+                                    2017/05/24  18:43更新
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-item-time">20170524</div>
+                        <div class="edit-item-content" id="wangedit5" >
+                            的，的为我排位哦哦陪我排位哦陪我排位藏去问问去封测微微侧去问问去封测微微侧去问问去封测微微侧
+                            <br />
+                            <img src="./images/timg2.jpeg" width="200" alt="">
+                            <br />
+                            我们经常会有这样的需求，整齐的去重复排列某个按钮或者图标。这里有两个最快速的方法。
+                            用 Sketch 创作的360个矢量图标，免费下载。
+                            Sketch 活跃的国际社区，你能在这获得素材、帮助和灵感。(请翻墙)
+                            讨论和争论
+                            “ Sketch 让我们尽可能少的设计，将UI放在了首位，让我们专注于响应式的设计而不是照片的编辑，关注于交互和动画而不是人造的材质。”
+                            “ 新的设计师上手PS比上手Sketch要难得多，这就意味着独立产品开发者，可以自己一个人用Sketch+Xcode5完成设计到开发的全过程。”
+                            “ 在 PS 中设计 UI，就像你要切纸的时候本来只需要一把剪刀，但你拿到的却是一把链锯。我们作为 UI 设计师根本用不到 3D 工具、漂亮的滤镜、或者内容感知填充。”
+                            “ 通过Sketch 3的更新， Bohemian Coding 身体力行地表达了他们的座右铭：倾听、制作、发布。以快到惊人的节奏，每天他们都在推送推送大量的更新和修正，而这是个仅由2名工程师、3名设计师组成的团队。”
+                            对每一种工具都保持开放的心态，而不要被它们限制。
+                            Design with Sketch  →
+
+
+                        </div>
+                        <div class="edit-item-copy fn-hide edit"
+                             data-clipboard-target="#wangedit5" >
+                            <img src="./images/teach-25.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-show fn-hide">
+                            <img src="./images/teach-24.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-hide hide">
+                            <img src="./images/teach-26.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="hide edit-item-focus">
+                            <div class="edit-page-tags">
+                                <div class="edit-page-tag">
+                                    启蒙
+                                </div>
+                                <div class="edit-page-tag">
+                                    全民社会
+                                </div>
+                            </div>
+                            <div class="edit-page-look">
+                                <a href="/">
+                                    查看原文   http://www.topys.cn/article/detail?id=23704
+                                </a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> << </span> 上一篇   罗马帝国曾被称为“永恒之城”，是如何衰落崩塌的？</a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> >> </span>
+                                    下一篇   阿拉里克的哥特人、阿提拉的匈人、盖萨里克的汪达尔人，还...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="edit-left-item">
+                    <div class="edit-item-body">
+                        <a class="edit-item-title">这里是收藏内容的标题这里是收藏内容的标题</a>
+                        <div class="edit-item-description hide">
+                            <div class="edit-item-description-img fn-left">
+                                <img src="./images/teach-28.png" width="28" height="28" alt="">
+                            </div>
+                            <div class="edit-item-description-text fn-eft ">
+                                <div>志鸿优化优秀教案</div>
+                                <div class="edit-item-description-time">
+                                    2017/05/24  18:43更新
+                                </div>
+                            </div>
+                        </div>
+                        <div class="edit-item-time">20170524</div>
+                        <div class="edit-item-content" id="wangedit6" >
+                            是自 Swift 开源以来第一个大的版本更新。从语言角度不兼容之前的 Swift 2.2 和 Swift 2.3 版本。Swift 3.0 的更新说明，大家可以查看官方blog的说明，也可以关注 SwiftGG 最新的文章。学习官方文档，是掌握语言特性点的最佳途径，感谢翻译的小伙伴们为 Swift 社区所做贡献！
+                            哦陪我排位藏的内容这里是收藏的
+                            1. 从搬砖说起 2. 一个简单的计数问题 3. Spark解决什么了问题 4. 基于数据集的计算框架 5. 数据集概念之SQL 6. 数据集概念之JavaScript 7. Spark牛刀小试
+                        </div>
+                        <div class="edit-item-copy fn-hide edit"
+                             data-clipboard-target="#wangedit6" >
+                            <img src="./images/teach-25.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-show fn-hide">
+                            <img src="./images/teach-24.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="edit-item-hide hide">
+                            <img src="./images/teach-26.png" width="30" height="30" alt="">
+                        </div>
+                        <div class="hide edit-item-focus">
+                            <div class="edit-page-tags">
+                                <div class="edit-page-tag">
+                                    启蒙
+                                </div>
+                                <div class="edit-page-tag">
+                                    全民社会
+                                </div>
+                            </div>
+                            <div class="edit-page-look">
+                                <a href="/">
+                                    查看原文   http://www.topys.cn/article/detail?id=23704
+                                </a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> << </span> 上一篇   罗马帝国曾被称为“永恒之城”，是如何衰落崩塌的？</a>
+                            </div>
+                            <div class="edit-page-link">
+
+                                <a href="/"><span> >> </span>
+                                    下一篇   阿拉里克的哥特人、阿提拉的匈人、盖萨里克的汪达尔人，还...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="fn-right">
+        <div style="width: 815px;" >
+            <div id="editer" style="height: 100%; "></div>
+        </div>
+    </div>
+    <div class="fn-clear"></div>
+</div>
+
+</body>
+<!--公共JS start-->
+<script src="./js/lib/jquery.min.js"></script>
+<script src="./js/lib/animate.js"></script>
+<script src="./js/lib/jquery.dropotron.min.js"></script>
+<script src="./js/lib/lodash.min.js"></script>
+<script src="./js/lib/notify.min.js"></script>
+<script src="./js/lib/perfect-scrollbar.jquery.min.js"></script>
+
+<!--公共JS end-->
+<!--引入编辑器和自定义插件 start-->
+<script type="text/javascript" src="./js/wangEditor.js"></script>
+<script src="./js/wang-edit/insert-modal.js"></script>
+<script src="./js/wang-edit/save-menu.js"></script>
+<script src="./js/wang-edit/parting-line.js"></script>
+<!--引入编辑器和自定义插件 end-->
+
+<script src="./js/lib/clipboard.min.js"></script>
+<script src="./js/mineEditer.js"></script>
+
+</html>

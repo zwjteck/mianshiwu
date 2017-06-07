@@ -1,0 +1,296 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TeachIN</title>
+
+    <!--[if lt IE 8]>
+    <script src="./js/lib/ieold.js"></script>
+    <![endif]-->
+
+
+    <!--公用css start-->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/animation_delay.css">
+    <link rel="stylesheet" href="./css/drop.css">
+    <!--公用css end-->
+    <link rel="stylesheet" href="./css/home.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-body">
+            <div class="logo fn-inline">
+                <a href="/">
+                    <img src="./images/teach-05.png" alt="logo teachin">
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" value="" placeholder="搜索" class="search-input" id="search-input" />
+                <i class="search-clear"></i>
+            </div>
+            <div class="user fn-right">
+                <div class="user-name">choujidan0821</div>
+                <div class="user-list"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--data-tag  可以为 产品id -->
+    <div class="content">
+        <div class="mytag">
+            <div class="mytag-h3">我的标签</div>
+            <ul class="mytag-ul" id="multipart-radio">
+                <li><a href="javascript:" data-tag="all">全部</a></li>
+                <li class="on"><a href="javascript:" data-tag="notall">未加标签</a></li>
+                <li><a href="javascript:" data-tag="kechengcaikao">课程参考</a></li>
+                <li><a href="javascript:" data-tag="keyongsucai">可用素材</a></li>
+                <li><a href="javascript:" data-tag="xinwenzixun">教育新闻资讯</a></li>
+                <li class="on" ><a href="javascript:" data-tag="tupian" >图片</a></li>
+                <li><a href="javascript:" data-tag="shipingjiaoxue">辅导教学视频</a></li>
+                <li><a href="javascript:" data-tag="zhanwaishoucang">站外收藏</a></li>
+                <li><a href="javascript:" data-tag="chuangxinjiaoyu">创新教育</a></li>
+            </ul>
+            <div class="mytag-type" >
+                <div class="fn-inline mytag-title">内容类型</div>
+                <div class="fn-inline mytag-raido" id="singal-radio">
+                    <div class="fn-inline radio" data-tag="all">全部</div>
+                    <div class="fn-inline radio selected" data-tag="A">文章</div>
+                    <div class="fn-inline radio" data-tag="B">题目</div>
+                    <div class="fn-inline radio" data-tag="C">图片</div>
+                    <div class="fn-inline radio" data-tag="D">文档</div>
+                    <div class="fn-inline radio" data-tag="E">音频</div>
+                    <div class="fn-inline radio" data-tag="F">视频</div>
+                </div>
+            </div>
+            <div class="mytag-action">
+                <a href="#">更多</a>
+                <ul class="fn-hide">
+                    <li><a href="/" class="create-tag">新建标签</a></li>
+                    <li><a href="/" class="edit-tag">修改标签</a></li>
+                    <li><a href="/" class="delete-tag">删除标签</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="fn-left content-list">
+            <ul class="content-ul">
+                <li><a href="/edit" class="myedit">新建文档</a></li>
+                <li><a href="/" class="myfavor selected">我的收藏</a></li>
+                <li><a href="/creation" class="myidea ">我的创作</a></li>
+            </ul>
+
+        </div>
+        <div class="fn-left content-project">
+            <ul class="content-project-ul">
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/word.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物园音乐经典里的梗太多，他们做了个摇滚动物园音乐经典里的梗太多，他们做了个摇滚动物园音乐经典里的梗太多，他们做了个摇滚动物园音乐经典里的梗太多，他们做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/ppt.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   http://www.qdaily.com/articles/35203.html
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/flash.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/mp4.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/flash.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/flash.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/flash.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/flash.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="content-project-li">
+                    <div class="project-top">
+                        <a href="/">
+                            <div class="project-li-h3">音乐经典里的梗太多，他们做了个摇滚动物做了个摇滚动物园</div>
+                        </a>
+                        <img src="./images/flash.png" width="22" height="20">
+                    </div>
+                    <div class="project-bottom">
+                        <div class="fn-left project-bottom-comefrom">
+                            来自   百度百科
+                        </div>
+                        <div class="fn-right project-bottom-time">2017/05/25  23:00</div>
+                    </div>
+                    <div class="project-action">
+                        <i class="setting"></i>
+                        <ul class="fn-hide">
+                            <li><a href="/" class="common" >改标签</a></li>
+                            <li><a href="/" class="common" >删除</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+<!--公共JS start-->
+<script src="./js/lib/jquery.min.js"></script>
+<script src="./js/lib/animate.js"></script>
+<script src="./js/lib/jquery.dropotron.min.js"></script>
+<!--公共JS end-->
+
+<script src="./js/home.js"></script>
+
+</html>

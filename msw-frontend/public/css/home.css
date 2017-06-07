@@ -1,0 +1,251 @@
+
+/**
+ * @class 首页
+ **/
+.content {
+    overflow: hidden;
+    width:1420px;
+    margin: 0 auto;
+}
+.content .content-list {
+    width:180px;
+    height:auto;
+
+}
+.content .content-list li {
+    height:36px;
+    margin-bottom: 12px;
+}
+.content .content-list li a {
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #76767B;
+    transition: 0.6s all ease;
+    padding-left: 45px;
+}
+.content .content-list li a:hover , .content .content-list li a.selected {
+    color: #DD545F;
+}
+.content .content-list li a.myedit {
+    background: url("../images/teach-07.png") no-repeat 6px 6px ;
+    background-size: 20px 20px;
+}
+.content .content-list li a.myedit:hover , .content .content-list li a.myedit.selected {
+    background: url("../images/teach-08.png") no-repeat 6px 6px ;
+    background-size: 20px 20px;
+}
+.content .content-list li a.myfavor {
+    background: url("../images/teach-12.png") no-repeat 6px 6px ;
+    background-size: 20px 20px;
+}
+.content .content-list li a.myfavor:hover , .content .content-list li a.myfavor.selected{
+    background: url("../images/teach-09.png") no-repeat 6px 6px ;
+    background-size: 20px 20px;
+}
+.content .content-list li a.myidea {
+    background: url("../images/teach-10.png") no-repeat 6px 6px ;
+    background-size: 16px 20px;
+}
+.content .content-list li a.myidea:hover , .content .content-list li a.myidea.selected{
+    background: url("../images/teach-11.png") no-repeat 6px 6px ;
+    background-size: 16px 20px;
+}
+
+
+
+
+
+.content .content-project .content-project-ul {
+    width: 1110px;
+    height: auto;
+
+}
+.content .content-project .content-project-li {
+    background-color: #ffffff;
+    height:66px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    transition: 0.6s all ease;
+    position: relative;
+}
+
+.content .content-project .content-project-li .project-top {
+    overflow: hidden;
+    width: 1020px;
+    height: 40px;
+}
+.content .content-project .content-project-li .project-top .project-li-h3 {
+    font-size: 16px;
+    line-height: 40px;
+    color: #36363F;
+    float: left;
+    margin-right: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    height: 52px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.content .content-project .content-project-li .project-top img {
+    padding-top: 8px;
+}
+.content .content-project .content-project-li .project-bottom {
+    overflow: hidden;
+    width: 1020px;
+    height: 20px;
+}
+.content .content-project .content-project-li .project-bottom-comefrom {
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+.content .content-project .content-project-li .project-bottom-time {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.content .content-project .content-project-li .project-action {
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    right: 26px;
+    top:29px;
+}
+.content .content-project .content-project-li .setting {
+    display: none;
+    width: 19px;
+    height: 18px;
+    background : url("../images/teach-29.png") no-repeat 0 0;
+    background-size: 19px 18px;
+    cursor: pointer;
+
+}
+.content .content-project .content-project-li:hover {
+    background-color: #E3E3E3;
+    box-shadow: 5px 3px 17px #ccc;
+
+}
+.content .content-project .content-project-li:hover .setting {
+    display: block;
+}
+.content .content-project .content-project-li:hover .project-top .project-li-h3 {
+    color: #DD545F;
+}
+
+
+
+
+
+
+.content .mytag {
+    width: 1120px;
+    height:130px;
+    margin: 25px 0 15px 180px;
+    position: relative;
+}
+
+.content .mytag .mytag-action {
+    width: 60px;
+    height:22px;
+    font-size: 12px;
+    line-height: 22px;
+    padding-right: 24px;
+    background: url("../images/teach-22.png") no-repeat right 10px;
+    text-align: right;
+    background-size: 6px 3px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top:10px;
+    color: #36363F;
+}
+.content .mytag .mytag-action a {
+    color: #86868C;
+}
+.content .mytag .mytag-action ul li{
+    background-color: #fff;
+    padding: 0;
+}
+.content .mytag .mytag-action ul li:hover a {
+    background-color: #F2F2F3;
+    color: #333;
+}
+.content .mytag .mytag-action:hover {
+    opacity: 0.78;
+}
+.content .mytag .mytag-h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #36363F;
+}
+.content .mytag .mytag-ul {
+    overflow: hidden;
+    padding: 10px 0;
+
+}
+.content .mytag .mytag-ul li {
+    float: left;
+    margin-right: 18px;
+
+}
+.content .mytag .mytag-ul li a {
+    display: block;
+    padding: 5px 15px;
+    background-color: #E0E0E1;
+    color: #36363F;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+}
+.content .mytag .mytag-ul li.on a , .content .mytag .mytag-ul li a:hover {
+    color: #fff;
+    background-color: #E04F5B;
+}
+.content .mytag .mytag-type {
+    margin-top: 6px;
+
+}
+.content .mytag .mytag-type .mytag-title {
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 8px;
+}
+
+.content .mytag .mytag-type .mytag-raido .radio {
+    margin-right: 22px;
+    padding-left: 20px;
+    background: url("../images/radio-34.png") no-repeat 0 2px;
+    background-size: 13px 13px;
+    cursor: pointer;
+}
+.content .mytag .mytag-type .mytag-raido .radio.selected ,
+.content .mytag .mytag-type .mytag-raido .radio:hover {
+    background: url("../images/radio-33.png") no-repeat 0 2px;
+    background-size: 13px 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

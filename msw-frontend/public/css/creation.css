@@ -1,0 +1,85 @@
+.creation-content h2 , .creation-content h3{
+    /*height: 600px;*/
+}
+.content-list-creation {
+    margin-top: 165px;
+}
+.creation-content {
+    width: 900px;
+    padding: 45px 12px;
+}
+.creation-content  .creation-content-tags .creation-tags{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #E0E0E1;
+    color: #36363F;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.creation-content  .creation-content-tags .creation-tags.add {
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.creation-content  .creation-content-tags .creation-tags:hover , .creation-content  .creation-content-tags .creation-tags.selected {
+    background-color: #E6636E;
+    color: #fff;
+}
+
+.creation-item-title {
+    height: 15px;
+    border-bottom: 1px solid #D7DEE5;
+    margin: 35px 0;
+}
+.creation-item-title .index {
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    padding-right: 14px;
+    background-color: #EDECED;
+    display: inline-block;
+}
+.creation-item-title .title {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    padding-right: 14px;
+    background-color: #EDECED;
+    display: inline-block;
+}
+.creation-item-title .total {
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    color: #E6636E;
+    padding-right: 14px;
+    background-color: #EDECED;
+    display: inline-block;
+}
+.creation-item-content {
+    overflow: hidden;
+}
+.creation-item-content .creation-item-li {
+    overflow: hidden;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+.creation-item-content .creation-item-li .creation-item-img {
+    text-align: center;
+
+}
+.creation-item-content .creation-item-li .creation-item-text {
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    padding: 6px 0;
+    color: #666;
+}

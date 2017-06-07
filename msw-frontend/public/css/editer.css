@@ -1,0 +1,399 @@
+/**
+ * @class /edit 自定义
+ **/
+
+.edit-body {
+    width: 1420px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.edit-body .edit-body-shadow {
+    position: absolute;
+    height: 49px;
+    background-color: #EFEFEF;
+}
+
+.edit-body .edit-favior {
+    width: 560px;
+    height: 100%;
+    background-color: #F9F9F9;
+}
+
+.edit-body .edit-favior .edit-title {
+    background-color: #EFEFEF;
+    overflow: hidden;
+}
+
+.edit-body .edit-favior .edit-favior-title {
+    border-bottom: 3px solid #E84F5B;
+    font-size: 14px;
+    color: #E84F5B;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    background: url("../images/quot.png") no-repeat 8px 16px;
+    background-size: 12px 11px;
+    padding-left: 28px;
+
+}
+
+.edit-body .edit-content {
+    position: relative;
+}
+
+.edit-body .edit-content .edit-left-items {
+    background-color: #fff;
+    position: relative;
+}
+.edit-body .edit-content .edit-tags {
+    margin: 0 20px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.edit-body .edit-content .edit-tags-multipart {
+     position: absolute;
+     left: 20px;
+     top:47px;
+     padding: 15px;
+     background-color: #fff;
+     box-shadow: 0 0 13px 0px #ccc;
+     width: 359px;
+     z-index: 30;
+ }
+.edit-body .edit-content .edit-tags-multipart .edit-multipart-li {
+    float: left;
+    background-color: #F0F0F1;
+    color: #777;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.edit-body .edit-content .edit-tags-multipart .edit-multipart-li.pink {
+    background-color: #EA7780;
+    color: #fff;
+}
+.edit-body .edit-content .edit-tags-multipart .edit-multipart-li.pink:hover ,
+.edit-body .edit-content .edit-tags-multipart .edit-multipart-li:hover
+{
+    background-color: #E7555F;
+    color: #fff;
+}
+
+
+
+.edit-body .edit-content .edit-tags-single {
+    position: absolute;
+    left: 100px;
+    top:47px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 13px 0px #ccc;
+    width: 359px;
+    z-index: 30;
+}
+.edit-body .edit-content .edit-tags-single .edit-single-li {
+    float: left;
+    background-color: #F0F0F1;
+    color: #777;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.edit-body .edit-content .edit-tags-single .edit-single-li.pink {
+    background-color: #EA7780;
+    color: #fff;
+}
+.edit-body .edit-content .edit-tags-single .edit-single-li.pink:hover ,
+.edit-body .edit-content .edit-tags-single .edit-multipart-li:hover
+{
+    background-color: #E7555F;
+    color: #fff;
+}
+
+
+.edit-body .edit-content .edit-tags-detail {
+    margin: 20px 30px 0 30px;
+    padding: 0 10px;
+}
+
+.edit-body .edit-content .edit-tags-detail .edit-tag-item {
+    background-color: #EA7780;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.edit-body .edit-content .edit-tags-detail .edit-tag-item i {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari 和 Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+
+.edit-body .edit-content .edit-tags-detail .edit-tag-item:hover {
+    background-color: #E7555F;
+}
+
+.edit-body .edit-content .edit-left-items {
+    max-height: 1200px;
+    overflow: scroll;
+}
+
+.edit-body .edit-content .edit-left-items .edit-left-item {
+    position: relative;
+    z-index: 12;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.edit-body .edit-content .edit-left-items .edit-left-item .edit-item-body {
+    margin: 0 30px;
+    padding: 14px 0;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.edit-content .edit-left-items .edit-item-body .edit-item-description {
+   width: 100%;
+    padding: 8px 0;
+}
+.edit-content .edit-left-items .edit-item-body .edit-item-description-img {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.edit-content .edit-left-items .edit-item-body .edit-item-description-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+.edit-content .edit-left-items .edit-item-body .edit-item-description-time  {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+.edit-body .edit-left-item .edit-item-body .edit-item-title {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+    line-height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    width: 395px;
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-title:hover {
+    color: #E84F5B;
+
+}
+
+.edit-body .edit-left-item:hover {
+    box-shadow: 0px 0px 12px #aaa;
+}
+.edit-body .edit-left-item img {
+    max-width: 500px;
+}
+
+.edit-body .edit-left-item:hover .fn-hide {
+    display: block;
+}
+.edit-body .edit-left-item .hide {
+    display: none;
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-time {
+    font-size: 12px;
+    color: #777;
+    line-height: 24px;
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-content {
+    font-size: 14px;
+    color: #777;
+    line-height: 24px;
+    max-height: 145px;
+    overflow: hidden;
+
+
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-copy {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 90px;
+    top: 15px;
+    cursor: pointer;
+
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-copy:hover {
+    opacity: 0.8;
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-show {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 40px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 40;
+}
+.edit-body .edit-left-item .edit-item-body .edit-item-hide {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 40px;
+    top: 15px;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.edit-body .edit-left-item .edit-item-body .edit-item-show:hover {
+    opacity: 0.8;
+}
+
+.edit-body .edit-tags .edit-content-tag {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #777;
+    cursor: pointer;
+    text-align: center;
+}
+
+.edit-body .edit-tags .edit-content-tag:hover {
+    background-color: #eee;
+}
+
+.edit-body .edit-tags .edit-content-tag i {
+    vertical-align: middle;
+    margin-left: 22px;
+}
+
+.edit-content-title .search {
+    width: 250px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: 0.6s opacity ease;
+    position: relative;
+}
+
+.edit-content-title .search:hover {
+    opacity: 0.78;
+
+}
+
+.edit-content-title .search .search-input {
+    width: 100%;
+    height: 36px;
+    border: 0;
+    background: url("../images/sear.png") no-repeat 24px 10px;
+    background-size: 16px;
+    text-indent: 54px;
+    font-size: 15px;
+    line-height: 36px;
+
+}
+
+.edit-content-title .search i {
+    display: none;
+    width: 12px;
+    height: 12px;
+    background: url("../images/search-clear.png") no-repeat 0 0;
+    background-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.edit-content-title .search:hover i {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @descrption **详情页
+
+ **/
+.edit-item-focus .edit-page-tags {
+    overflow: hidden;
+}
+.edit-item-focus .edit-page-tags .edit-page-tag {
+    float: left;
+    background-color: #F0F0F1;
+    color: #777;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.edit-item-focus .edit-page-tags .edit-page-tag:hover {
+    color: #fff;
+    background-color: #EA7780;
+}
+.edit-item-focus .edit-page-look a {
+    display: block;
+    color: #685E8A;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 13px 0;
+    border-bottom: 1px solid #eee;
+}
+.edit-item-focus .edit-page-look a:hover {
+    color: #EA7780;
+}
+.edit-item-focus .edit-page-link a {
+    display: block;
+    color: #685E8A;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 8px 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.edit-item-focus .edit-page-link a:hover {
+    color: #EA7780;
+}
