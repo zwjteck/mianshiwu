@@ -18,6 +18,10 @@ public class UserInfo {
     private String id;
 
 
+    /**
+     * @auth liujunbin
+     * @property {userName} 唯一
+     **/
     @Column(unique = true)
     private String userName;
 
