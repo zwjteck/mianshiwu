@@ -1,7 +1,8 @@
 /Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/girl/GirlRepository.java
-/Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/UserInfo.java
 /Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/girl/GirlController.java
 /Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/girl/Girl.java
 /Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/Learn001Application.java
-/Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/girl/userService.java
+/Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/util/JsonResult.java
+/Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/entity/UserInfo.java
+/Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/repository/UserinfoRepository.java
 /Users/liujunbin/Documents/mianshiwu/msw-backend/src/main/java/com/learn/learn001/girl/GirlService.java
