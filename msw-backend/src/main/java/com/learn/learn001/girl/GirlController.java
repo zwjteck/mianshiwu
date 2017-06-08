@@ -24,6 +24,20 @@ public class GirlController {
 
     }
 
+    @GetMapping("/login")
+    public String getHello(){
+
+        return "login";
+
+    }
+
+    @GetMapping("/test")
+    public String test(){
+
+        return "test";
+
+    }
+
     @PostMapping("/girl")
     @Transactional
     public Girl addGirl(@RequestBody Girl girl2 , HttpSession session){
