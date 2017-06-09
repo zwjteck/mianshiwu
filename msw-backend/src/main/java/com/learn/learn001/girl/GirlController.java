@@ -1,5 +1,7 @@
 package com.learn.learn001.girl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
@@ -17,9 +19,14 @@ public class GirlController {
     @Autowired
     private GirlRepository girlRepository;
 
-    @GetMapping("/girls")
-    public List<Girl> getAllGirls(){
 
+    private static final Logger loger = LoggerFactory.getLogger(GirlController.class);
+
+    @GetMapping("/girls")
+    public List<Girl> getAllGirls(@RequestHeader(value = "Accept-Language") String tes){
+
+        loger.info("==========================");
+        loger.info(tes);
         return girlRepository.findAll();
 
     }

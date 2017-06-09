@@ -23,11 +23,16 @@ public class UserInfoController {
     @Autowired
     private UserinfoRepository userinfoRepository;
 
-    @PostMapping(value = "/user")
-    void createUser(@RequestBody Object body){
+    @PostMapping(value = "/user" , consumes="application/json")
+    void createUser(@RequestBody UserInfo request){
         logger.info("+++++++++++++++++++++++++++++++");
-        logger.info(body.toString());
+        logger.info(request.toString());
         logger.info("+++++++++++++++++++++++++++++++");
+
+
+        userinfoRepository.save(request);
+
+
     }
 
 }
